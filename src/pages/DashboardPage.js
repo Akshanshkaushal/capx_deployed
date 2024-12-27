@@ -1,7 +1,7 @@
 import React from 'react';
 import PortfolioDashboard from '../components/portfolio/PortfolioDashboard';
 import StockHoldingList from '../components/portfolio/StockHoldingList';
-import Navbar from '../components/Navbar';
+import Navbar from '../components/Navbar/Navbar';
 
 const DashboardPage = () => (
   <div>
