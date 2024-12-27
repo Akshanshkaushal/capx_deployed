@@ -1,7 +1,7 @@
-import React from 'react';
-import StockList from '../components/StockList';
-import Navbar from '../components/Navbar';
+import React from 'react'; 
 import logo from '../assests/logo.webp';
+import StockList from '../components/stocks/StockList';
+import Navbar from '../components/Navbar/Navbar';
 
 const MainPage = () => {
   return (
