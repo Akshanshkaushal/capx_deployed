@@ -8,7 +8,7 @@ const StockList = () => {
 
   // List of tickers to fetch data
   const symbols = [
-    'TSCO.LON',
+    'IBM',
     'SHOP.TRT',
     'GPV.TRV',
     'MBG.DEX',

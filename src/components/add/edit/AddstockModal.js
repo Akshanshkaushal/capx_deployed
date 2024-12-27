@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import api from '../utils/api';
+import api from '../../../utils/api';
 
 const AddStockModal = ({ onClose, onAdd, stock }) => {
   const [formData, setFormData] = useState({
