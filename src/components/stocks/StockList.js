@@ -52,11 +52,11 @@ const StockList = () => {
   };
 
   useEffect(() => {
-    // Check if cached data exists and is less than 1 hour old
+    // Check if cached data exists and is less than 1defined duration
     const cachedData = localStorage.getItem('stocks');
     if (cachedData) {
       const parsedData = JSON.parse(cachedData);
-      const cacheDuration = 60 * 60 * 1000; // 1 hour in milliseconds
+      const cacheDuration = 600000; //   milliseconds
       if (Date.now() - parsedData.timestamp < cacheDuration) {
         // Use cached data
         setStocks(parsedData.data);
